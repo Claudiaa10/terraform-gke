@@ -1,7 +1,7 @@
 
 variable "gcp-project" {
   description = "GCP project"
-  default     = "lab-8-490507"
+  default     = "project-f6883221-1297-41bd-9eb"
 }
 
 variable "gcp-network" {
@@ -22,7 +22,7 @@ variable "gcp-zone" {
 variable "gcp-cluster-name" {
   description = "Cluster name"
   type        = string
-  default     = "lab8-cluster2"
+  default     = "clusterreto"
 }
 
 variable "gcp-node-count" {
@@ -38,5 +38,5 @@ variable "gcp-node-size" {
 variable "gcp-bucket-name" {
   description = "Bucket Name"
   type        = string
-  default     = "lab8-bucket2"
+  default     = "comotuquieras"
 }
