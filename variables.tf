@@ -22,7 +22,7 @@ variable "gcp-zone" {
 variable "gcp-cluster-name" {
   description = "Cluster name"
   type        = string
-  default     = "lab8-cluster"
+  default     = "lab8-cluster2"
 }
 
 variable "gcp-node-count" {
